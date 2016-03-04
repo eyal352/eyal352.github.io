@@ -1,9 +1,29 @@
 header {
-    text-align: right;
-    padding-right: 18px;
+    text-align: center;
     max-width: 100%;
-    background-image: url(/P1%2520-%2520Portfolio/Portfolio%20Project/images/boat.jpg);
+    height: 200px;
+    background-image: url(https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/bridge.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
-.name{
-    margin: 5px 0 -10px 0;
+
+nav {
+
+}
+
+.title{
+    margin: 0px;
+    color: royalblue
+}
+
+container {
+
+}
+
+@media (max-width: 767px)
+.container {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
 }
