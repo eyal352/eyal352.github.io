@@ -14,11 +14,18 @@ nav {
 
 .title{
     margin: 0px;
-    color: royalblue
+    color: royalblue;
+    margin-top: -20px;
+    text-align: left;
 }
 
-container {
+.discription {
+    color: dodgerblue;
+    margin-top: -7px;
+}
 
+.container-fluid {
+    text-align: center;
 }
 
 @media (max-width: 767px)

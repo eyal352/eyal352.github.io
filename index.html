@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Eyal Chsitik's Portfolio</title>
@@ -20,9 +20,12 @@
 </head>
     
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <!-- navbar -->
-        <nav class="navbar navbar-inverse">
+   
+    <!-- Header -->
+    <header> 
+         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -58,15 +61,71 @@
             
             </div>     
         </nav>
-    <!-- Header -->
-    <header>
-
-        <div class="row" id="header"> 
+        <div class="row title" id="header"> 
             <h1 class="name">Eyal Chistik</h1>
-            <h2 class="title">Front-End Developer</h2>
+            <h2 class="discription">Front-End Developer</h2>
         </div>
     </header>    
-    
+    <!-- About Me -->
+    <section>
+        <article>
+            <h2 id="about-me">About Me</h2>
+            <p>holder text</p>
+        </article>
+    </section>
+    <!-- Featured Work -->
+    <section>
+    <div class="row featured-work">
+    <h2 id="featured-work">Featured Work</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-4 featured-work-col">
+            <figure>
+                <picture>
+                    <img srcset="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/boat.jpg 1x,"
+                    src="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/boat.jpg" alt="boat on the bay" class="img-responsive" data-toggle="modal" data-target="#first-project">
+                </picture>
+            </figure>
+            <h4>First Project</h4>
+
+            <div class="button-block">
+                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#first-project"><i class="fa fa-info"></i> Details</button>
+
+                <a href="https://github.com/eyal352/eyal352.github.io" role="button" class="btn btn-default" target="_blank"><i class="fa fa-github"></i> View on Github</a>
+            </div>
+        </div>
+        <div class="col-md-4 featured-work-col">
+            <figure>
+                <picture>
+                    <img srcset="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/boat.jpg 1x,"
+                    src="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/boat.jpg" alt="boat on the bay" class="img-responsive" data-toggle="modal" data-target="#second-project">
+                </picture>
+            </figure>
+            <h4>Second Project</h4>
+
+            <div class="button-block">
+                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#second-project"><i class="fa fa-info"></i> Details</button>
+
+                <a href="https://github.com/eyal352/eyal352.github.io" role="button" class="btn btn-default" target="_blank"><i class="fa fa-github"></i> View on Github</a>
+            </div>
+        </div>
+              <div class="col-md-4 featured-work-col">
+            <figure>
+                <picture>
+                    <img srcset="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/boat.jpg 1x,"
+                    src="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/boat.jpg" alt="boat on the bay" class="img-responsive" data-toggle="modal" data-target="#third-project">
+                </picture>
+            </figure>
+            <h4>Third Project</h4>
+
+            <div class="button-block">
+                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#third-project"><i class="fa fa-info"></i> Details</button>
+
+                <a href="https://github.com/eyal352/eyal352.github.io" role="button" class="btn btn-default" target="_blank"><i class="fa fa-github"></i> View on Github</a>
+            </div>
+        </div>  
+    </div>
+    </section>
         
         
     
