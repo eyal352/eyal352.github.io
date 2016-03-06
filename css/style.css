@@ -1,3 +1,7 @@
+body {
+    font-family: 'Palanquin', sans-serif;
+}
+
 header {
     text-align: center;
     max-width: 100%;
@@ -44,10 +48,14 @@ article {
     margin-bottom: 35px;
 }
 
-@media screen and (max-width: 767px) {
-.container {
-    max-width: 100%;
-    padding: 0px;
+.btn {
+    box-shadow: 1px 1px 3px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    body {
+    max-width: 767px;
+    margin: 0 auto;
     }
 }
 
