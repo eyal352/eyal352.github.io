@@ -22,11 +22,11 @@
     
 <body>
     <div class="container-fluid">
-        <!-- navbar -->
    
     <!-- Header -->
     <header> 
-         <nav class="navbar navbar-inverse">
+    <!-- navbar --> 
+        <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -39,24 +39,20 @@
                 </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-<!-- Fill in the following -->          
+      <ul class="nav navbar-nav">         
         <li><a href="#about-me">About Me
             <span class="sr-only">(current)</span></a>
         </li>
         <li><a href="#featured-work">Projects
             <span class="sr-only">(current)</span></a>
         </li>
-        <li>
-            <a href="#Contact">Contact
-            <span class="sr-only">(current)</span></a>
-        </li>          
+         
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <!-- Social -->
-        <li class="center-block"><a href="https://github.com/eyal352"><i class="fa fa-github fa-lg"></i></a></li>
-        <li class="center-block"><a href="https://www.linkedin.com/in/echistik"><i class="fa fa-linkedin fa-lg"></i></a></li>
-        <li class="center-block"><a href="mailto:eyal.chistik@gmail.com"><i class="fa fa-envelope-o"></i></a></li>  
+        <!-- Contact / Social -->
+        <li class="center-block"><a href="https://github.com/eyal352" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+        <li class="center-block"><a href="https://www.linkedin.com/in/echistik" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+        <li class="center-block"><a href="mailto:eyal dot chistik at gmail dot com"><i class="fa fa-envelope-o"></i></a></li>  
       </ul>
     </div><!-- /.navbar-collapse -->
             
@@ -79,12 +75,13 @@
     <div class="row featured-work">
     <h2 id="featured-work">Featured Work</h2>
     </div>
+    <!-- 3 Featured Projects -->
     <div class="row">
         <div class="col-md-4 featured-work-col">
             <figure>
                 <picture>
-                    <img srcset="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/boat.jpg 1x,"
-                    src="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/boat.jpg" alt="boat on the bay" class="img-responsive img-rounded" data-toggle="modal" data-target="#first-project">
+                    <img src="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/boat-large.jpg"
+                    alt="sailboat on the bay" class="img-responsive img-rounded" data-toggle="modal" data-target="#first-project">
                 </picture>
             </figure>
             <h4>First Project</h4>
@@ -98,8 +95,8 @@
         <div class="col-md-4 featured-work-col">
             <figure>
                 <picture>
-                    <img srcset="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/boat.jpg 1x,"
-                    src="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/boat.jpg" alt="boat on the bay" class="img-responsive img-rounded" data-toggle="modal" data-target="#second-project">
+                    <img srcset="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/jackson-medium.jpg 1x,"
+                    src="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/boat-small.jpg" alt="boat on the bay" class="img-responsive img-rounded" data-toggle="modal" data-target="#second-project">
                 </picture>
             </figure>
             <h4>Second Project</h4>
@@ -110,10 +107,10 @@
                 <a href="https://github.com/eyal352/eyal352.github.io" role="button" class="btn btn-default" target="_blank"><i class="fa fa-github"></i> View on Github</a>
             </div>
         </div>
-              <div class="col-md-4 featured-work-col">
+        <div class="col-md-4 featured-work-col">
             <figure>
                 <picture>
-                    <img srcset="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/boat.jpg 1x,"
+                    <img srcset="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/forest-medium.jpg 1x,"
                     src="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/boat.jpg" alt="boat on the bay" class="img-responsive img-rounded" data-toggle="modal" data-target="#third-project">
                 </picture>
             </figure>
@@ -127,8 +124,74 @@
         </div>  
     </div>
     </section>
-        
-        
+  
+    <!-- Modals -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="first-project">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">First Project</h4>
+        </div>
+        <div class="modal-body">
+           <figure>
+            <picture>
+                <img src="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/boat-large.jpg"
+                    alt="sailboat on the bay" class="img-responsive img-rounded" data-toggle="modal" data-target="#first-project">
+            </picture>
+        </figure>
+        <p class="modal-first-paragraph">Explanation of first project</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="second-project">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Second Project</h4>
+        </div>
+        <div class="modal-body">
+           <figure>
+            <picture>
+                <img srcset="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/jackson-large.jpg 1x," src="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/boat.jpg" alt="boat on the bay" class="img-responsive img-rounded" data-toggle="modal" data-target="#second-project">
+            </picture>
+        </figure>
+        <p class="modal-first-paragraph">Explanation of second project</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+    </div>
+    </div>
+    </div>        
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="third-project">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Third project</h4>
+        </div>
+        <div class="modal-body">
+           <figure>
+            <picture>
+                <img srcset="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/forest-large.jpg 1x," src="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/boat.jpg" alt="boat on the bay" class="img-responsive img-rounded" data-toggle="modal" data-target="#third-project">
+            </picture>
+        </figure>
+        <p class="modal-first-paragraph">Explanation of third project</p>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+    </div>
+    </div>
+    </div>
     
     </div> <!-- container -->
 </body>    
@@ -138,7 +201,16 @@
 </html>    
     
     
-    
+    <!-- Notes
+* Fix image centering / srcset / 
+* Fix Navbar positioning over text
+
+* Add styling to text
+* Try adding slight shadow to details and github boxes
+* Change color or add transparency to Name/Title
+
+
+-->
     
     
     
