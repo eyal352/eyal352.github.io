@@ -12,15 +12,9 @@ header {
     background-size: cover;
 }
 
-@media screen and (max-width:736px) {
-header {
-    height: 295px;
-    background-position: left;
-        }
-}
 
 nav {
-    opacity: .85;
+    opacity: .8;
 }
 
 .navbar-right {
@@ -36,14 +30,23 @@ nav {
     position: absolute;
 
 }
-
-article {
-
+h1 {
+    font-size: 45px;
+}
+h2 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 32px;
 }
 
 .discription {
     color: dodgerblue;
     margin-top: -7px;
+}
+
+#introduction{
+    font-size: 20px
 }
 
 .container-fluid {
@@ -64,5 +67,12 @@ article {
     max-width: 767px;
     margin: 0 auto;
     }
+}
+
+@media screen and (max-width:736px) {
+header {
+    height: 315px;
+    background-position: left;
+        }
 }
 
