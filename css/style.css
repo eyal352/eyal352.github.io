@@ -3,10 +3,6 @@ body {
     max-width: 100%;
 }
 
-.main-div {
-    padding: 0;
-}
-
 header {
     text-align: center;
     max-width: 100%;
@@ -80,6 +76,5 @@ header {
     height: 315px;
     background-position: left;
     }
-    h2 {font-size: 40px;  }  
         }
 
