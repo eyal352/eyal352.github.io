@@ -12,6 +12,11 @@ nav {
 
 }
 
+.navbar-right {
+   display: flex;
+
+}
+
 .title{
     margin: 0px;
     color: royalblue;
