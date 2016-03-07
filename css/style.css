@@ -13,7 +13,6 @@ header {
     background-size: cover;
 }
 
-
 nav {
     opacity: .8;
 }
@@ -29,15 +28,17 @@ nav {
     text-align: left;
     z-index: -0;
     position: absolute;
-
 }
+
 h1 {
     font-size: 45px;
 }
+
 h2 {
     font-size: 40px;
     max-width: 100%;
 }
+
 h4 {
     font-size: 32px;
 }
@@ -53,7 +54,6 @@ h4 {
 
 .container-fluid {
     text-align: center;
-
 }
 
 .featured-work-col {
@@ -72,9 +72,8 @@ h4 {
 }
 
 @media screen and (max-width:736px) {
-header {
-    height: 315px;
-    background-position: left;
+    header {
+        height: 315px;
+        background-position: left;
     }
         }
-
