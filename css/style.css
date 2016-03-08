@@ -18,10 +18,10 @@ nav {
 }
 
 .navbar-right {
-   display: flex;
+    display: flex;
 }
 
-.title{
+.title {
     margin: 0px;
     color: royalblue;
     margin-top: -20px;
@@ -48,8 +48,8 @@ h4 {
     margin-top: -7px;
 }
 
-#introduction{
-    font-size: 20px
+#introduction {
+    font-size: 20px;
 }
 
 .container-fluid {
@@ -66,8 +66,8 @@ h4 {
 
 @media screen and (min-width: 767px) and (max-width: 991px) {
     body {
-    max-width: 767px;
-    margin: 0 auto;
+        max-width: 767px;
+        margin: 0 auto;
     }
 }
 
@@ -76,4 +76,4 @@ h4 {
         height: 315px;
         background-position: left;
     }
-        }
+}
