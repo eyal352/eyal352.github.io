@@ -71,7 +71,7 @@ h4 {
     }
 }
 
-@media screen and (max-width:736px) {
+@media screen and (max-width:767px) {
     header {
         height: 315px;
         background-position: left;
