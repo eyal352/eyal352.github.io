@@ -28,6 +28,7 @@ nav {
     text-align: left;
     z-index: -0;
     position: absolute;
+    font-family: 'Monda', sans-serif;
 }
 
 h1 {
@@ -44,7 +45,7 @@ h4 {
 }
 
 .discription {
-    color: dodgerblue;
+    color: rgba(77, 166, 255, 0.8);
     margin-top: -7px;
 }
 
