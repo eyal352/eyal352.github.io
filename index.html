@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <meta name="author" content="Eyal Chistik">
+    <meta name="description" content="Welcome to Eyal's portfolio page">
+    <meta name="key words" content="Eyal, blog, portfolio, resume">
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
@@ -56,20 +58,20 @@
             </nav>
             <div class="row title" id="header">
                 <h1 class="name"><b>Eyal Chistik</b></h1>
-                <h2 class="discription"><b>Front-End Developer</b></h2>
+                <span class="description"><b>Front-End Developer</b></span>
             </div>
         </header>
         <!-- About Me -->
         <section>
-            <article>
-                <h2 id="about-me">About Me</h2>
-                <p id="introduction">I am a nerd. I love fixing, building, and occassionaly breaking things. I have a passion for technology, and its applications towards making our world a better place.</p>
-            </article>
+            <div class="about">
+                <span>About Me</span>
+                <p id="intro">I am a nerd. I love fixing, building, and occassionaly breaking things. I have a passion for technology, and its applications towards making our world a better place.</p>
+            </div>
         </section>
         <!-- Featured Work -->
         <section>
             <div class="row featured-work">
-                <h2 id="featured-work">Featured Work</h2>
+                <span id="featured-work">Featured Work</span>
             </div>
             <!-- 3 Featured Projects -->
             <div class="row">
@@ -79,7 +81,7 @@
                             <img src="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/boat-large.jpg" alt="sailboat on the bay" class="img-responsive img-rounded" data-toggle="modal" data-target="#first-project">
                         </picture>
                     </figure>
-                    <h4>First Project</h4>
+                    <span class="project-title">First Project</span>
                     <div class="button-block">
                         <button type="button" class="btn btn-default" data-toggle="modal" data-target="#first-project"><i class="fa fa-info"></i> Details</button>
                         <a href="https://github.com/eyal352/eyal352.github.io" role="button" class="btn btn-default" target="_blank"><i class="fa fa-github"></i>View on Github</a>
@@ -91,7 +93,7 @@
                             <img src="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/jackson-large.jpg" alt="Jackson st. San Francisco" class="img-responsive img-rounded" data-toggle="modal" data-target="#second-project">
                         </picture>
                     </figure>
-                    <h4>Second Project</h4>
+                    <span class="project-title">Second Project</span>
                     <div class="button-block">
                         <button type="button" class="btn btn-default" data-toggle="modal" data-target="#second-project"><i class="fa fa-info"></i> Details</button>
                         <a href="https://github.com/eyal352/eyal352.github.io" role="button" class="btn btn-default" target="_blank"><i class="fa fa-github"></i> View on Github</a>
@@ -103,7 +105,7 @@
                             <img src="https://raw.githubusercontent.com/eyal352/eyal352.github.io/master/images/forest-large.jpg" alt="forest" class="img-responsive img-rounded" data-toggle="modal" data-target="#third-project">
                         </picture>
                     </figure>
-                    <h4>Third Project</h4>
+                    <span class="project-title">Third Project</span>
                     <div class="button-block">
                         <button type="button" class="btn btn-default" data-toggle="modal" data-target="#third-project"><i class="fa fa-info"></i> Details</button>
                         <a href="https://github.com/eyal352/eyal352.github.io" role="button" class="btn btn-default" target="_blank"><i class="fa fa-github"></i> View on Github</a>
@@ -118,7 +120,7 @@
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
                         </button>
-                        <h4 class="modal-title">First Project</h4>
+                        <span class="modal-title">First Project</span>
                     </div>
                     <div class="modal-body">
                         <figure>
