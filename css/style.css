@@ -65,6 +65,18 @@ h4 {
     box-shadow: 1px 1px 3px;
 }
 
+.modal-title {
+  font-size: 30px;
+}
+
+.modal-first-paragraph {
+  margin-top: 20px;
+}
+
+picture {
+  background-size: cover;
+}
+
 @media screen and (min-width: 767px) and (max-width: 991px) {
     body {
         max-width: 767px;
