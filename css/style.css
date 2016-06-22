@@ -77,6 +77,14 @@ picture {
   background-size: cover;
 }
 
+.about {
+  margin-top: 10px;
+}
+
+.featured-work {
+  margin-bottom: 10px;
+}
+
 @media screen and (min-width: 767px) and (max-width: 991px) {
     body {
         max-width: 767px;
