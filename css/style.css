@@ -74,7 +74,7 @@ h4 {
 }
 
 picture {
-  background-size: cover;
+  display: inline-block;
 }
 
 .about {
