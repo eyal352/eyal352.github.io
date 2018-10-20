@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <meta name="author" content="Eyal Chistik">
-    <meta name="description" content="Welcome to Eyal's portfolio page">
-    <meta name="key words" content="Eyal, blog, portfolio, resume">
+    <meta name="description" content="Eyal's portfolio page">
+    <meta name="key words" content="Eyal Chistik, blog, portfolio, resume">
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
@@ -65,14 +65,14 @@
         <!-- About Me -->
         <section>
             <div class="about">
-                <span><b>About Me</b></span>
+                <h2><b>About Me</b></h2>
                 <p id="intro">I am a nerd. I love fixing, building, and occassionaly breaking things. I have a passion for technology, and its applications towards making our world a better place.</p>
             </div>
         </section>
         <!-- Featured Work -->
         <section>
             <div class="row featured-work">
-                <span class="featured-work-header"><b>Featured Work</b></span>
+                <span class="featured-work-header"><h3>Featured Work</h3></span>
             </div>
             <!-- 3 Featured Projects -->
             <div class="row">
@@ -122,6 +122,18 @@
                     <div class="button-block">
                         <button type="button" class="btn btn-default" data-toggle="modal" data-target="#third-project"><i class="fa fa-info"></i> Details</button>
                         <a href="https://github.com/eyal352/By-Women-For-Women" role="button" class="btn btn-default" target="_blank"><i class="fa fa-github"></i> View on Github</a>
+                    </div>
+                </div>
+              <div class="col-md-4 featured-work-col">
+                    <figure>
+                        <picture>
+                            <img src="/images/extension_preview.GIF" alt="gif of chrome extension use" class="img-responsive img-rounded" data-toggle="modal" data-target="#fourth-project">
+                        </picture>
+                    </figure>
+                    <span class="project-title">Yotpo Chrome Extension</span>
+                    <div class="button-block">
+                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#fourth-project"><i class="fa fa-info"></i> Details</button>
+                        <a href="https://github.com/eyal352/Yotpo-Extension" role="button" class="btn btn-default" target="_blank"><i class="fa fa-github"></i>View on Github</a>
                     </div>
                 </div>
             </div>
@@ -208,6 +220,28 @@
                             </picture>
                         </figure>
                         <p class="modal-first-paragraph">By Women For Women is the fitness site and blog for professional trainer Jen Curtis. <br> The site is currently under construction. A working prototype can be viewed <a href="http://eyal352.github.io/By-Women-For-Women/">here.</a></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <div class="modal fade" tabindex="-1" role="dialog" id="fourth-project">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                        </button>
+                        <span class="modal-title">Yotpo Chrome Extension</span>
+                    </div>
+                    <div class="modal-body">
+                        <figure>
+                            <picture>
+                                <img src="/images/extension_preview.GIF" alt="extension screenshot" class="img-responsive img-rounded" data-toggle="modal" data-target="#fourth-project">
+                            </picture>
+                        </figure>
+                        <p class="modal-first-paragraph">This is a chrome extension built for Yotpo Support teams in order to assist with identifying and troubleshooting issues relating to widget integrations. Check out the code and instructions on how to use the extension <a href="https://github.com/eyal352/Yotpo-Extension" target="_blank">here.</a></p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
