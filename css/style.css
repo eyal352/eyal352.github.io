@@ -127,3 +127,8 @@ picture {
     font-size: 20px;
   }
 }
+
+@media (min-width: 992px)
+.modal-lg {
+    width: 700px;
+}
