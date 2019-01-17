@@ -129,6 +129,6 @@ picture {
 }
 
 @media (min-width: 992px)
-.modal-lg {
-    width: 700px;
+  .modal-dialog.modal-lg {
+    width: 700px !important;
 }
